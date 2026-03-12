@@ -1,0 +1,22 @@
+The Indian Ecommerce Orders Data Analysis Dashboard is an interactive business intelligence project developed using Power BI to analyze ecommerce sales performance across different regions,
+ product categories, and customer purchasing behaviors in India. The project integrates datasets containing order details and transaction information to generate meaningful insights
+  that help understand overall business performance and identify key growth opportunities.
+
+The dashboard provides a comprehensive overview of ecommerce operations through a combination of key performance indicators (KPIs) and visual analytics. 
+At the top of the dashboard, KPI cards display important metrics including Total Sales (2M), Total Quantity Sold (5615), Total Profit (37K), and Average Order Amount (291.85). 
+These indicators provide a quick snapshot of the company’s sales performance and profitability.
+
+To analyze product performance, the dashboard includes a Sales by Category visualization that highlights revenue distribution across major categories such as Electronics, 
+Clothing, and Furniture. This helps identify which product categories contribute the most to overall sales. 
+A detailed Sub-Category analysis further breaks down sales and profit by specific products such as phones, printers, chairs, sarees, and tables, 
+allowing deeper insight into product-level performance.
+
+Customer payment preferences are analyzed through the Sales, Quantity, and Profit by Payment Mode visualization. 
+This chart compares different payment methods such as Cash on Delivery (COD), EMI, Credit Card, UPI, and Debit Card, helping businesses understand
+ which payment options generate the highest sales and profitability.
+
+Geographical sales patterns are explored through the Sales by State map, which highlights revenue distribution across different states in India. Additionally, 
+the Top 10 Cities by Sales treemap identifies high-performing cities such as Indore, Pune, Mumbai, Mathura, and Hyderabad, providing insights into regional demand.
+
+Interactive filters allow users to dynamically explore the data by category, sub-category, payment mode, city, and state. Overall, 
+this dashboard demonstrates how tools like MySQL, Python, Excel, and Power BI can transform raw ecommerce data into actionable business insights that support data-driven decision-making.
