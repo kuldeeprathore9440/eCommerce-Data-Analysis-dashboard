@@ -1,7 +1,7 @@
 <h1 align="center">📊 Indian Ecommerce Orders Data Analysis Dashboard</h1>
 
 <p align="center">
-A Power BI dashboard that analyzes ecommerce sales performance across India using interactive visualizations.
+An interactive Power BI dashboard analyzing ecommerce sales performance, customer behavior, and regional trends across India.
 </p>
 
 <hr>
@@ -10,10 +10,32 @@ A Power BI dashboard that analyzes ecommerce sales performance across India usin
 
 <p>
 🔗 <b>View Full Dashboard</b><br>
-<a href="https://drive.google.com/file/d/1-5RBS6lioHpI1X356QNV9gA0M5fGeFNM/view?usp=sharing"?usp=sharing">
+<a href="https://drive.google.com/file/d/1-5RBS6lioHpI1X356QNV9gA0M5fGeFNM/view?usp=sharing" target="_blank">
 Open Power BI Dashboard
 </a>
 </p>
+
+<hr>
+
+<h2>📊 Project Overview</h2>
+
+<p>
+This project presents an <b>Indian Ecommerce Sales Analytics Dashboard</b> built using Power BI to analyze sales performance across 
+categories, payment methods, cities, and states. The dashboard transforms raw ecommerce order data into 
+<b>actionable business insights</b> to support data-driven decision making.
+</p>
+
+<hr>
+
+<h2>📂 Dataset Summary</h2>
+
+<ul>
+<li><b>10,000+ Ecommerce Orders</b></li>
+<li><b>5 Product Categories</b></li>
+<li><b>20+ Cities</b></li>
+<li><b>5 Payment Methods</b></li>
+<li>Order, Customer, and Transaction Data</li>
+</ul>
 
 <hr>
 
@@ -22,20 +44,17 @@ Open Power BI Dashboard
 <p align="center">
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" title="Python"/>
-
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="60" title="MySQL"/>
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" width="60" title="Excel"/>
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="60" title="Power BI"/>
 
 </p>
 
 <ul>
-<li><b>Python</b> – Data preprocessing and cleaning</li>
-<li><b>MySQL</b> – Data storage and query operations</li>
-<li><b>Excel</b> – Initial data exploration</li>
-<li><b>Power BI</b> – Data visualization and dashboard creation</li>
+<li><b>Python</b> – Data cleaning and preprocessing</li>
+<li><b>MySQL</b> – Data storage and querying</li>
+<li><b>Excel</b> – Initial exploration</li>
+<li><b>Power BI</b> – Dashboard creation and visualization</li>
 </ul>
 
 <hr>
@@ -44,18 +63,6 @@ Open Power BI Dashboard
 
 <p align="center">
 <img src="Image-Dashboard.png" width="90%" alt="Ecommerce Dashboard">
-</p>
-
-<hr>
-
-<h2>📊 Dashboard Overview</h2>
-
-<p>
-The <b>Indian Ecommerce Orders Data Analysis Dashboard</b> is an interactive Power BI dashboard designed to analyze ecommerce sales performance across multiple dimensions such as product categories, payment methods, geographic regions, and cities.
-</p>
-
-<p>
-The dashboard integrates order data and transaction data to generate valuable insights into business performance, customer purchasing patterns, and product profitability.
 </p>
 
 <hr>
@@ -69,83 +76,52 @@ The dashboard integrates order data and transaction data to generate valuable in
 <li><b>Average Order Amount:</b> 291.85</li>
 </ul>
 
-<p>
-These KPI cards provide a quick overview of the company’s overall ecommerce performance.
-</p>
+<hr>
+
+<h2>📊 Key Insights</h2>
+
+<ul>
+<li>Electronics category generated the <b>highest revenue</b></li>
+<li>Cash on Delivery (COD) is the <b>most preferred payment method</b></li>
+<li>Top 5 cities contribute a <b>major share of total sales</b></li>
+<li>Maharashtra and Madhya Pradesh show <b>highest order volume</b></li>
+<li>High-value products drive <b>majority of total profit</b></li>
+</ul>
 
 <hr>
 
-<h2>📊 Dashboard Insights</h2>
+<h2>📊 Dashboard Features</h2>
 
 <h3>1️⃣ Sales by Category</h3>
-<p>
-This visualization shows how total sales are distributed across different product categories such as <b>Electronics, Clothing, and Furniture</b>.  
-It helps identify which category contributes the most revenue.
-</p>
-
-<h3>2️⃣ Sales, Quantity & Profit by Payment Mode</h3>
-<p>
-This chart analyzes customer payment preferences including:
-</p>
-
 <ul>
-<li>Cash on Delivery (COD)</li>
-<li>EMI</li>
-<li>Credit Card</li>
-<li>UPI</li>
-<li>Debit Card</li>
+<li>Category-wise revenue comparison</li>
+<li>Identify top performing categories</li>
 </ul>
 
-<p>
-It helps understand which payment methods drive the most sales and profits.
-</p>
-
-<h3>3️⃣ Sales by State</h3>
-<p>
-The map visualization displays geographic sales distribution across India.  
-This helps identify high-performing states and potential growth regions.
-</p>
-
-<h3>4️⃣ Sales by Sub-Category</h3>
-<p>
-This analysis breaks down performance at the product level including items such as:
-</p>
-
+<h3>2️⃣ Payment Mode Analysis</h3>
 <ul>
-<li>Phones</li>
-<li>Printers</li>
-<li>Chairs</li>
-<li>Sarees</li>
-<li>Tables</li>
-<li>Accessories</li>
+<li>Sales by payment method</li>
+<li>Profit by payment type</li>
+<li>Customer payment preferences</li>
 </ul>
 
-<p>
-It helps identify which products generate the most revenue and profit.
-</p>
-
-<h3>5️⃣ Top 10 Cities by Sales</h3>
-
-<p>
-This treemap highlights the cities generating the highest sales including:
-</p>
-
+<h3>3️⃣ Geographic Analysis</h3>
 <ul>
-<li>Indore</li>
-<li>Pune</li>
-<li>Mumbai</li>
-<li>Mathura</li>
-<li>Hyderabad</li>
-<li>Ahmedabad</li>
+<li>State-wise sales distribution</li>
+<li>City-wise revenue contribution</li>
+<li>Top performing locations</li>
+</ul>
+
+<h3>4️⃣ Product Analysis</h3>
+<ul>
+<li>Sub-category performance</li>
+<li>Top selling products</li>
+<li>Quantity vs profit comparison</li>
 </ul>
 
 <hr>
 
 <h2>🎛 Interactive Filters</h2>
-
-<p>
-Users can explore the data using multiple filters including:
-</p>
 
 <ul>
 <li>Category</li>
@@ -156,19 +132,20 @@ Users can explore the data using multiple filters including:
 </ul>
 
 <p>
-These slicers allow dynamic analysis of ecommerce performance and customer behavior.
+These slicers allow dynamic exploration of ecommerce performance and customer behavior.
 </p>
 
 <hr>
 
+<h2>🎯 Business Value</h2>
 
-
-<h2>🎯 Project Objective</h2>
-
-<p>
-The goal of this project is to transform raw ecommerce order data into meaningful insights using Power BI.  
-The dashboard helps analyze sales performance, customer purchasing trends, product demand, and regional sales distribution.
-</p>
+<ul>
+<li>Identify high-performing product categories</li>
+<li>Understand customer payment preferences</li>
+<li>Analyze regional sales performance</li>
+<li>Optimize inventory and product strategy</li>
+<li>Support data-driven ecommerce decisions</li>
+</ul>
 
 <hr>
 
